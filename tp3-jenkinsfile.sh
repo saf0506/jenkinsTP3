@@ -14,7 +14,7 @@ pipeline {
         }
         stage ('Deploy') {
             steps {
-                echo "Etape de déploiement"
+                echo "Etape de déploiement à partir de Git"
             }
         }
     }
