@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Etape de build"
+                echo "Etape de build test git"
                 sh 'python2 --version'
             }
         }
@@ -14,7 +14,7 @@ pipeline {
         }
         stage ('Deploy') {
             steps {
-                echo "Etape de déploiement à partir de Git"
+                echo "Etape de déploiement"
             }
         }
     }
